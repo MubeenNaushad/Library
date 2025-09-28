@@ -10,6 +10,15 @@
 *.userosscache
 *.sln.docstates
 *.env
+*.user
+*.suo
+
+# Logs
+*.log
+
+# Database (ignore unless you want to ship it)
+*.db-shm
+*.db-wal
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
