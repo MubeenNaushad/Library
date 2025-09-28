@@ -1,4 +1,6 @@
-﻿namespace BookStore.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace BookStore.Models
 {
     public class BookModel
     {
@@ -11,13 +13,15 @@
 
     public class PeopleModel
     {
+        [Key]
         public int peopleId { get; set; }
         public string peopleName { get; set; } = string.Empty;
         public string peopleEmail { get; set; } = string.Empty;
     }
 
     public class BookTransactionModel
-    {         
+    {
+        [Key]
         public int TransactionId { get; set; }
         public int BookId { get; set; }
         public int PeopleId { get; set; }
