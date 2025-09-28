@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "BookStore.Controllers.BookController",
+    "Method": "CreateAccount",
+    "RelativePath": "api/Book/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "creation",
+        "Type": "BookStore.Models.CreateOrUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.Controllers.BookController",
+    "Method": "GetAllBooks",
+    "RelativePath": "api/Book/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.Controllers.BookController",
+    "Method": "GetBooksbyId",
+    "RelativePath": "api/Book/getById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.Controllers.BookController",
+    "Method": "UpdateBook",
+    "RelativePath": "api/Book/update/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updation",
+        "Type": "BookStore.Models.CreateOrUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookStore.Controllers.UtilityController",
+    "Method": "FromXmltoJson",
+    "RelativePath": "api/Utility/xml-to-json",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "xmlData",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
