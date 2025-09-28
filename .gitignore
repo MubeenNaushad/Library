@@ -20,6 +20,7 @@
 *.db-shm
 *.db-wal
 *.db
+Properties/launchSettings.json
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
